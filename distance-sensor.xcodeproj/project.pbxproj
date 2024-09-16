@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAF029AF2C98A89100C013DE /* distance_sensorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF029AE2C98A89100C013DE /* distance_sensorApp.swift */; };
+		EAF029B12C98A89100C013DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF029B02C98A89100C013DE /* ContentView.swift */; };
+		EAF029B32C98A89200C013DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF029B22C98A89200C013DE /* Assets.xcassets */; };
+		EAF029B62C98A89200C013DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF029B52C98A89200C013DE /* Preview Assets.xcassets */; };
+		EAF029C02C98A89300C013DE /* distance_sensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF029BF2C98A89300C013DE /* distance_sensorTests.swift */; };
+		EAF029CA2C98A89300C013DE /* distance_sensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF029C92C98A89300C013DE /* distance_sensorUITests.swift */; };
+		EAF029CC2C98A89300C013DE /* distance_sensorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF029CB2C98A89300C013DE /* distance_sensorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF029BC2C98A89300C013DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF029A32C98A89100C013DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF029AA2C98A89100C013DE;
+			remoteInfo = "distance-sensor";
+		};
+		EAF029C62C98A89300C013DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF029A32C98A89100C013DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF029AA2C98A89100C013DE;
+			remoteInfo = "distance-sensor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAF029AB2C98A89100C013DE /* distance-sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "distance-sensor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF029AE2C98A89100C013DE /* distance_sensorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distance_sensorApp.swift; sourceTree = "<group>"; };
+		EAF029B02C98A89100C013DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAF029B22C98A89200C013DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAF029B52C98A89200C013DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAF029BB2C98A89300C013DE /* distance-sensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "distance-sensorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF029BF2C98A89300C013DE /* distance_sensorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distance_sensorTests.swift; sourceTree = "<group>"; };
+		EAF029C52C98A89300C013DE /* distance-sensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "distance-sensorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF029C92C98A89300C013DE /* distance_sensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distance_sensorUITests.swift; sourceTree = "<group>"; };
+		EAF029CB2C98A89300C013DE /* distance_sensorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distance_sensorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAF029A82C98A89100C013DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF029B82C98A89300C013DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF029C22C98A89300C013DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAF029A22C98A89100C013DE = {
+			isa = PBXGroup;
+			children = (
+				EAF029AD2C98A89100C013DE /* distance-sensor */,
+				EAF029BE2C98A89300C013DE /* distance-sensorTests */,
+				EAF029C82C98A89300C013DE /* distance-sensorUITests */,
+				EAF029AC2C98A89100C013DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF029AC2C98A89100C013DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF029AB2C98A89100C013DE /* distance-sensor.app */,
+				EAF029BB2C98A89300C013DE /* distance-sensorTests.xctest */,
+				EAF029C52C98A89300C013DE /* distance-sensorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF029AD2C98A89100C013DE /* distance-sensor */ = {
+			isa = PBXGroup;
+			children = (
+				EAF029AE2C98A89100C013DE /* distance_sensorApp.swift */,
+				EAF029B02C98A89100C013DE /* ContentView.swift */,
+				EAF029B22C98A89200C013DE /* Assets.xcassets */,
+				EAF029B42C98A89200C013DE /* Preview Content */,
+			);
+			path = "distance-sensor";
+			sourceTree = "<group>";
+		};
+		EAF029B42C98A89200C013DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAF029B52C98A89200C013DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAF029BE2C98A89300C013DE /* distance-sensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF029BF2C98A89300C013DE /* distance_sensorTests.swift */,
+			);
+			path = "distance-sensorTests";
+			sourceTree = "<group>";
+		};
+		EAF029C82C98A89300C013DE /* distance-sensorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF029C92C98A89300C013DE /* distance_sensorUITests.swift */,
+				EAF029CB2C98A89300C013DE /* distance_sensorUITestsLaunchTests.swift */,
+			);
+			path = "distance-sensorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAF029AA2C98A89100C013DE /* distance-sensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF029CF2C98A89300C013DE /* Build configuration list for PBXNativeTarget "distance-sensor" */;
+			buildPhases = (
+				EAF029A72C98A89100C013DE /* Sources */,
+				EAF029A82C98A89100C013DE /* Frameworks */,
+				EAF029A92C98A89100C013DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "distance-sensor";
+			productName = "distance-sensor";
+			productReference = EAF029AB2C98A89100C013DE /* distance-sensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAF029BA2C98A89300C013DE /* distance-sensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF029D22C98A89300C013DE /* Build configuration list for PBXNativeTarget "distance-sensorTests" */;
+			buildPhases = (
+				EAF029B72C98A89300C013DE /* Sources */,
+				EAF029B82C98A89300C013DE /* Frameworks */,
+				EAF029B92C98A89300C013DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF029BD2C98A89300C013DE /* PBXTargetDependency */,
+			);
+			name = "distance-sensorTests";
+			productName = "distance-sensorTests";
+			productReference = EAF029BB2C98A89300C013DE /* distance-sensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAF029C42C98A89300C013DE /* distance-sensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF029D52C98A89300C013DE /* Build configuration list for PBXNativeTarget "distance-sensorUITests" */;
+			buildPhases = (
+				EAF029C12C98A89300C013DE /* Sources */,
+				EAF029C22C98A89300C013DE /* Frameworks */,
+				EAF029C32C98A89300C013DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF029C72C98A89300C013DE /* PBXTargetDependency */,
+			);
+			name = "distance-sensorUITests";
+			productName = "distance-sensorUITests";
+			productReference = EAF029C52C98A89300C013DE /* distance-sensorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF029A32C98A89100C013DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EAF029AA2C98A89100C013DE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EAF029BA2C98A89300C013DE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EAF029AA2C98A89100C013DE;
+					};
+					EAF029C42C98A89300C013DE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EAF029AA2C98A89100C013DE;
+					};
+				};
+			};
+			buildConfigurationList = EAF029A62C98A89100C013DE /* Build configuration list for PBXProject "distance-sensor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAF029A22C98A89100C013DE;
+			productRefGroup = EAF029AC2C98A89100C013DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF029AA2C98A89100C013DE /* distance-sensor */,
+				EAF029BA2C98A89300C013DE /* distance-sensorTests */,
+				EAF029C42C98A89300C013DE /* distance-sensorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAF029A92C98A89100C013DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF029B62C98A89200C013DE /* Preview Assets.xcassets in Resources */,
+				EAF029B32C98A89200C013DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF029B92C98A89300C013DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF029C32C98A89300C013DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAF029A72C98A89100C013DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF029B12C98A89100C013DE /* ContentView.swift in Sources */,
+				EAF029AF2C98A89100C013DE /* distance_sensorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF029B72C98A89300C013DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF029C02C98A89300C013DE /* distance_sensorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF029C12C98A89300C013DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF029CA2C98A89300C013DE /* distance_sensorUITests.swift in Sources */,
+				EAF029CC2C98A89300C013DE /* distance_sensorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAF029BD2C98A89300C013DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF029AA2C98A89100C013DE /* distance-sensor */;
+			targetProxy = EAF029BC2C98A89300C013DE /* PBXContainerItemProxy */;
+		};
+		EAF029C72C98A89300C013DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF029AA2C98A89100C013DE /* distance-sensor */;
+			targetProxy = EAF029C62C98A89300C013DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EAF029CD2C98A89300C013DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAF029CE2C98A89300C013DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAF029D02C98A89300C013DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"distance-sensor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fulton.software.distance-sensor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAF029D12C98A89300C013DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"distance-sensor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fulton.software.distance-sensor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAF029D32C98A89300C013DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fulton.software.distance-sensorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/distance-sensor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/distance-sensor";
+			};
+			name = Debug;
+		};
+		EAF029D42C98A89300C013DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fulton.software.distance-sensorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/distance-sensor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/distance-sensor";
+			};
+			name = Release;
+		};
+		EAF029D62C98A89300C013DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fulton.software.distance-sensorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "distance-sensor";
+			};
+			name = Debug;
+		};
+		EAF029D72C98A89300C013DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fulton.software.distance-sensorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "distance-sensor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAF029A62C98A89100C013DE /* Build configuration list for PBXProject "distance-sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF029CD2C98A89300C013DE /* Debug */,
+				EAF029CE2C98A89300C013DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF029CF2C98A89300C013DE /* Build configuration list for PBXNativeTarget "distance-sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF029D02C98A89300C013DE /* Debug */,
+				EAF029D12C98A89300C013DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF029D22C98A89300C013DE /* Build configuration list for PBXNativeTarget "distance-sensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF029D32C98A89300C013DE /* Debug */,
+				EAF029D42C98A89300C013DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF029D52C98A89300C013DE /* Build configuration list for PBXNativeTarget "distance-sensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF029D62C98A89300C013DE /* Debug */,
+				EAF029D72C98A89300C013DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAF029A32C98A89100C013DE /* Project object */;
+}
