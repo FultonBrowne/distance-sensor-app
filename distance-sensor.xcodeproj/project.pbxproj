@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA814CED2C9911AD00BC3FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EAF029AB2C98A89100C013DE /* distance-sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "distance-sensor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF029AE2C98A89100C013DE /* distance_sensorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distance_sensorApp.swift; sourceTree = "<group>"; };
 		EAF029B02C98A89100C013DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		EAF029AD2C98A89100C013DE /* distance-sensor */ = {
 			isa = PBXGroup;
 			children = (
+				EA814CED2C9911AD00BC3FCA /* Info.plist */,
 				EAF029AE2C98A89100C013DE /* distance_sensorApp.swift */,
 				EAF029B02C98A89100C013DE /* ContentView.swift */,
 				EAF029B22C98A89200C013DE /* Assets.xcassets */,
@@ -425,6 +427,7 @@
 				DEVELOPMENT_TEAM = Q4LXC2U6S4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "distance-sensor/Info.plist";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "To connect to the distance sensor";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "To connect to the distance sensor";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -432,6 +435,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +460,7 @@
 				DEVELOPMENT_TEAM = Q4LXC2U6S4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "distance-sensor/Info.plist";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "To connect to the distance sensor";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "To connect to the distance sensor";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -463,6 +468,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
